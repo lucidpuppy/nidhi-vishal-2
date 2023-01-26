@@ -1,0 +1,1013 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    min-width: 100vw !important;
+    width: 100vw !important;
+}
+
+a {
+    color: black;
+}
+
+.main {
+    margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+.date {
+    display: none;
+}
+
+.f1 {
+    position: absolute;
+    top: -400px;
+    left: -500px;
+    transform: scale(0.3);
+}
+
+.f2 {
+    overflow-x: hidden;
+    position: absolute;
+    top: 775px;
+    right: -500px;
+    transform: scale(-0.3);
+    z-index: -1;
+}
+
+
+
+br {
+    display: none;
+}
+
+.curve-text {
+    display: none!important;
+    width: 0%;
+}
+
+.curve-text-desktop {
+    font-family: 'Alex Brush';
+}
+
+.calendar img {
+    /* margin-top: -500px; */
+}
+
+.calendarrr-div{
+    position: absolute; 
+    left: 2rem; 
+    top: 0; 
+    margin-top: 5rem;
+}
+.calendarrr{
+    width: 90vw;
+}
+
+.calendar {
+    max-width: 800px;
+    width: 80vw;
+    height: auto;
+}
+
+.celebrate {
+    font-family: 'Alex Brush';
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.location {
+    margin-top: -120px;
+    margin-bottom: -140px;
+}
+
+.holding-hand {
+    margin-top: -100px;
+    margin-bottom: -130px;
+}
+
+@font-face {
+    font-family: 'Anastasia Script';
+    src: url('font/anastasia_script/Anastasia.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('font/kalam/Kalam-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('font/Abhaya_Libre/AbhayaLibre-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('font/Alex_Brush/AlexBrush-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url('font/Satisfy/Satisfy-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.amber {
+    font-family: 'Abhaya Libre';
+}
+
+.wedding-date {
+
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Kalam';
+}
+
+.two-lives .walk {
+    font-size: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Kalam';
+}
+.line {
+    margin-top: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.loc .date-loc {
+    font-size: 35px;
+    font-family: Kalam;
+}
+
+.loc .at {
+    font-size: 35px;
+    font-family: 'Kalam';
+}
+
+.loc .banquet {
+    font-size: 35px;
+    font-family: 'Kalam';
+}
+
+.couple-img {
+    height: 400px;
+/*    
+margin-top: 30px;
+    margin-bottom: -220px;
+*/
+}
+
+.groom-and-bride {
+    font-family: 'Alex Brush';
+    font-size: 80px;
+}
+
+ /*.follow-the-venue {
+   background: url('elegant-blue.png');
+    background-position: cover;
+}
+*/
+
+div{
+    font-family: 'SansationLight';
+}
+
+ .img-amber, .img-kanika {
+    border-radius: 50%;
+
+}
+
+#world{
+    z-index: -1;
+}
+
+.occasion {
+
+    font-family: 'Abhaya Libre';
+    margin-top: 70px;
+    display: flex;
+    font-size: 23px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.save-the-date {
+    margin-left: 5rem;
+    margin-right: auto;
+    margin-top: 1rem;
+    font-size: 85px;
+    font-family: 'Alex Brush';
+}
+
+#my-canvas {
+    position: absolute;
+}
+
+.flower {
+    margin-top: -100px;
+    margin-bottom: -300px;
+}
+.hands {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+.details {
+    background-image: url("empty-blue.png");
+    
+    background-repeat: no-repeat;
+    background-position: -50 100;
+    text-align: center;
+    margin-top: 20px;
+}
+*/
+.married {
+    margin-top: -100px;
+    font-family: 'Abhaya Libre';
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.lunch-and-dancing {
+    font-size: 28px;
+}
+
+.venue {
+
+    font-size: 41px;
+    font-family: 'Abhaya Libre';
+
+}
+
+.lunch-and-dancing {
+    margin-top: 50px;
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #8D2652;
+}
+
+p {
+    font-family: 'Abhaya Libre';
+    font-size: 20px;
+}
+
+.heading {
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Alex Brush';
+}
+
+.invite {
+    font-family: 'Abhaya Libre';
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.download-invitation {
+    font-family: 'Kalam';
+    padding: 4px 4px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 32px;
+    border: none;
+    /*
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #FED6D9;
+    */
+}
+
+
+.download-invitation a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.row{
+    margin-top: 170px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+    margin-bottom: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+     clear: both;
+  }
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+#kanikaText {
+    font-size: 25px;
+    font-family: 'Alex Brush';
+}
+
+#amberText {
+text-align: center;
+margin-left: -130px;
+padding: 0;
+font-size: 25px;
+float: left;
+width: 30%;
+}
+
+.row2 {
+    margin-top: 40px;
+}
+
+
+.ping {
+    font-family: 'Abhaya Libre';
+    color: #8D2652;
+    font-size: 35px;
+    display: block;
+    margin-top: 30px;
+}
+
+.mob {
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+
+}
+
+
+
+path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: black;
+  }
+
+.mob a {
+    color: black;
+    text-decoration: none;
+}
+
+.names {
+    font-family: 'Anastasia Script';
+    color: #8D2652;
+    font-weight: 100;
+}
+
+.happiness {
+    display: block;
+    font-family: 'Alex Brush';
+    margin-top: 15px;
+    margin-bottom: -120px;
+    font-size: 45px;
+}
+
+.fa {
+    margin-bottom: 20px;
+}
+
+/*.background {
+    background: url("indian-wedding-background.webp"); 
+    background-repeat: no-repeat;
+    position: absolute;
+}*/
+
+.division {
+    font-family: 'Anastasia Script';
+    text-align: center;
+    font-size: 60px;
+    text-align: center;
+    
+    align-self: center;
+    flex-direction: row;
+}
+
+@media (min-width:200px) and (max-width:340px) {
+
+    .f1, .f2 {
+        display: none;
+    }
+
+    .two-lives .walk {
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Kalam';
+    }
+
+    .wedding-date {
+        font-size: 25px;
+    }
+
+    .line {
+        width: 85%;
+    }
+
+
+    .download-invitation {
+        margin-left: 0px;
+    }
+
+    .groom-and-bride {
+        margin-top: 15px;
+    }
+
+    button.download-invitation a {
+        color: black;
+    }
+
+
+
+}
+
+/*phone*/
+@media (min-width:345px) and (max-width:480px) {
+
+    button.download-invitation a {
+        color: black;
+        z-index:1
+    }
+    
+    body {
+        
+        overflow-x: hidden;
+    }
+
+
+    
+    br {
+        display: block;
+    }
+
+    .couple-image-and-text {
+    }
+
+    .two-lives {
+        
+        font-family: 'Abhaya Libre';
+        /* margin-top: -30px; */
+    }
+
+    .walk {
+        font-family: 'Kalam';
+        font-size: 15px;
+        padding: 24px;
+    }
+
+    .wedding-date {
+        font-size: 20px;
+    }
+
+     /*.new-background {
+        margin-top: -150px;
+       background: url("elegant-blue.png");
+        background-repeat: no-repeat;
+    background-size: 480px 1000px;
+    background-position: -50 0;
+        
+    }
+    */
+    
+    .new-background {
+        background: url("empty-blue.png");
+    }
+    
+
+    .download-invitation {
+        padding: 4px 4px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 12px;
+        border: none;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        background-color: #FED6D9;
+    }
+
+    .couple-img {
+        height: 200px;
+/*
+        margin-left: 10px;
+        display: flex;
+        justify-content: left;
+*/
+    }
+
+    .date {
+        margin-top: 276px;
+        margin-left: 96px;
+    }
+
+
+   
+    .loc .date-loc {
+        font-size: 17px;
+    }
+
+    .loc .at {
+        font-size: 15px;
+    }
+
+
+    .loc .banquet {
+        font-size: 15px;
+    }
+
+    .two-lives .walk {
+        font-size: 15px;
+        padding: 0;
+        margin-top: -30px;
+    font-family: 'Kalam';
+}
+       
+    
+
+.line {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.calendar-div{
+    margin-top: 5rem;
+}
+.calendar {
+    /* top: 0; */
+    /* display: flex; */
+    /* left: 50px; */
+    align-items: center;
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* height: 60%;
+    width: 100%; */
+}
+
+.details {
+   /* background-image: url("new-flowers.png"); 
+   background-repeat: no-repeat;
+   background-size: 420px 714px;
+   background-position: 0px 9px;*/
+    text-align: center;
+    content: "";
+    
+    top: -190px;
+    z-index: -1;
+   
+}
+
+.loc p {
+    font-size: 15px;
+    font-family: 'Kalam';
+
+}
+
+.date-loc {
+    margin-bottom: -20px;
+}
+
+.at {
+    margin-bottom: -20px;
+}
+
+.with {
+    font-size: 26px;
+}
+
+.groom-and-bride {
+    font-size: 50px;
+    font-family: "Alex Brush";
+}
+
+
+.img-kanika {
+
+    margin-top: -250px;
+
+    }
+
+    .curve-text {
+        display: block;
+        width: 100%;
+
+    
+    }
+
+    .celebrate {
+        font-family: 'Alex Brush';
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    
+
+    .save-the-date {
+
+        font-size: 50px;
+        font-family: 'Alex Brush';
+    }
+
+    .flower {
+        margin-top: 40px;
+        height: 200px;
+    }
+
+    .division {
+        font-size: 40px;
+    }
+
+   .follow-the-venue {
+
+       margin-top: 180px;
+       cursor: pointer;
+   }
+
+   .heading {
+
+       font-size: 45px;
+       font-family: 'Alex Brush';
+       margin-bottom: 30px;
+       margin-top: -140px;
+
+   }
+
+   .map {
+       margin-top: -30px;
+   }
+
+  
+
+  
+
+ /*body {
+    width: 100%;
+   background-image: url("newbg.png"); 
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}*/
+
+.download-invitation {
+    margin-bottom: 40px;
+    z-index: 2;
+
+
+}
+
+
+.row .column p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#amberText {
+    text-align: center!important;
+    padding: 0;
+    float: none;
+    font-size: 23px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    }
+
+.names {
+    margin-top: -30px;
+    font-size: 36px;
+    font-family: 'Anastasia Script';
+    
+}
+
+.married {
+    margin-top: -130px;
+    font-size: 25px;
+}
+
+.venue {
+    margin-top: -30px;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.lunch-and-dancing {
+    font-size: 23px;
+}
+
+.invite {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+
+.row {
+    width: 100%;
+    flex-flow: column-reverse;
+    padding: 0;
+}
+
+.amber {
+    flex-direction: column;
+}
+
+
+.column {
+    width: 100%;
+}
+
+.img-amber {
+   position: relative;
+}
+
+.img-kanika {
+    margin-top: -60px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.occasion {
+    margin-left: 120px;
+    margin-top: -150px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ping {
+    font-size: 18px;
+    margin-bottom: -25px;
+}
+
+.mob {
+    font-size: 16px;
+}
+
+.happiness {
+    margin-top: 40px;
+    font-size: 35px;
+    margin-bottom: -100px;
+}
+
+
+
+}
+/*ipad*/
+@media screen and (min-width: 768px) {
+
+
+    .amber {
+        font-family: 'Abhaya Libre';
+    }
+    
+    .row {
+    text-align: center;
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    }
+
+
+    .celebrate {
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .img-kanika {
+        margin-top: -20px;
+        margin-right: -100px;
+    }
+
+     .img-amber {
+        text-align: center;
+        margin-top: 30px;
+        width: 300px;
+        margin-left: -350px;
+        height: 250px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 50%;
+    }
+
+  
+
+}
+
+/*desktop*/
+@media screen and (min-width: 864px) {
+
+   
+   
+
+
+    .img-kanika {
+        margin-top: 0px;
+        margin-right: -100px;
+    }
+
+     .img-amber {
+        text-align: center;
+        margin-top: 0px;
+        width: 300px;
+        margin-left: -150px;
+        height: 250px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 50%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 330px) {
+
+    
+
+
+    .new-background {
+        margin-top: -132px;
+       
+    }
+
+    .couple-img {
+        margin-top: 170px;
+    }
+
+    .download-invitation {
+        margin-left: 0;
+    }
+
+    .two-lives .walk {
+            font-size: 16px;
+            /* padding-left: 150px; */
+            /* padding-right: 150px; */
+            font-family: 'Kalam';
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-bottom: 30px;
+       
+    }
+
+}
+
+@media (min-width:320px)  { 
+    .f1 {
+        position: absolute;
+        top: -840px;
+        left: -520px;
+        transform: scale(0.16);
+	z-index: 1;
+    }
+    
+    .f2 {
+        position: absolute;
+        top: 100px;
+        right: -520px;
+        transform: scale(-0.15);
+    	z-index: 1;
+    }
+    .calendarrr{
+        width: 90vw;
+    }
+}
+
+
+@media (min-width:481px)  { 
+    .f1 {
+        position: absolute;
+        top: -650px;
+        left: -500px;
+        transform: scale(0.18);
+        z-index: 1;
+    }
+   
+    .f2 {
+        position: absolute;
+        top: 10px;
+        right: -550px;
+        transform: scale(-0.18);
+        z-index: 1;
+    }
+    .calendar {
+        width: 500px;
+        height: 500px;
+        transform: scale(0.74);
+    }
+    .calendarrr{
+        width: 70vw;
+    }
+}
+
+@media (min-width:641px)  { 
+    .f1 {
+        position: absolute;
+        top: -500px;
+        left: -500px;
+        transform: scale(0.22);
+        z-index: 1;
+    }
+   
+    .f2 {
+        position: absolute;
+        top: 350px;
+        right: -630px;
+        transform: scale(-0.22);
+        z-index: 1;
+    }
+    .calendar {
+        width: 500px;
+        height: 500px;
+        transform: scale(0.74);
+    }
+    .calendarrr{
+        width: 40vw;
+    }
+ }
+
+ @media (min-width:961px)  { 
+    .f1 {
+        position: absolute;
+        top: -500px;
+        left: -500px;
+        transform: scale(0.22);
+        z-index: 1;
+    }
+  
+    .f2 {
+        position: absolute;
+        top: 450px;
+        right: -500px;
+        transform: scale(-0.22);
+        z-index: 1;
+    }
+    .calendar {
+        width: 500px;
+        height: 500px;
+        transform: scale(0.74);
+    }
+
+    .calendarrr{
+        width: 30vw;
+    }
+ }
